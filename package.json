@@ -1,0 +1,22 @@
+{
+  "name": "LiveOAuth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
+    "seed": "createdb live-oauth-example"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
